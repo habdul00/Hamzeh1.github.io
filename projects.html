@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+      <section class="" id="introduction-hero">
+          <nav>
+              <img class="logo" src="src/images/logo.png" alt="Hamzeh Abdul logo"/>
+              <ul id="nav-list">
+                    <li><a href="/index.html">Home</a></li>
+                  <li><a href="#about-me">About me</a></li>
+                  <li><a href="#contact-me">Contact</a></li>
+              </ul>
+              <button class="hamburger" id="hamburger">
+                  <i class="fas fa-bars"></i>
+              </button>
+          </nav>
+          
+      </section>
+      <section class="sub-section" id="about-me">
+          <div class="information">
+              <h2>About Me</h2>
+              <p>Hello. My name is Hamzeh. I am a Software Developer and a senior @ UNCC.</p>
+          </div>
+          <div class="headshot-container">
+              <img class="headshot" src="src/images/headshot.jpg"  alt="Hamzeh profile picture"/>
+          </div>
+      </section>
+
+      <!-- line to break the sectioins -->
+        <hr id="project-hr"/>
+
+
+
+      <section class="sub-section-alternative" id="projects">
+          <h2>Projects</h2>
+          <div class="project-container">
+              <div class="project-card">
+                  <img class="project-image" id="project-1" src="src/images/project1.jpg" alt="Project One Image"/>
+                  <h3>Portfolio Website</h3>
+                  <p class="subtext">This portfolio is one of the projects that I'm most proud of. The reason? It's personal.</p>
+                  <hr/>
+                  <p class="subtext"><a class="project-link" href="https://www.github.com/habdul00">View here</a></p>
+              </div>
+              <div class="project-card">
+                <img class="project-image" id="project-1" src="src/images/project2.jpg" alt="Project One Image"/>
+                <h3>E-commerce Webapp</h3>
+                <p class="subtext">The E-commerce platform I developed serves as a one-stop-shop for sports enthusiasts.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/habdul00/onlineStoreTemplate">View here</a></p>
+              </div>
+          </div>
+      </section>
+      <footer id="contact-me">
+          <h2>Contact me</h2>
+          <p>hamzehabdul@gmail.com</p>
+      </footer>
+    <script src="src/app.js"></script>
+  </body>
+</html>
